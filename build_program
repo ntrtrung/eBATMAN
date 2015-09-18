@@ -1,0 +1,19 @@
+cd /root/ntrtrung/qomet-1.5-beta/
+gmake clean
+gmake
+cp -f /root/ntrtrung/qomet-1.5-beta/wireconf/do_wireconf  /root/ntrtrung/qomet-1.5-beta/
+cd /root/ntrtrung/qomet-1.6-beta/
+gmake clean
+gmake
+cd /root/ntrtrung/Control_Program/
+bash /root/ntrtrung/Control_Program/build
+cd /root/ntrtrung/Action_Executor_v0.7/Action_For_Node/
+bash /root/ntrtrung/Action_Executor_v0.7/Action_For_Node/build
+cd /root/ntrtrung/Action_Executor_v0.7/
+bash /root/ntrtrung/Action_Executor_v0.7/build
+cd /root/ntrtrung/Broad_Envi_v0.27/
+bash /root/ntrtrung/Broad_Envi_v0.27/build
+cd /root/ntrtrung/Broad_Envi_v0.27/Neighbor_Table_v1/
+bash /root/ntrtrung/Broad_Envi_v0.27/Neighbor_Table_v1/build
+cd /root/ntrtrung/Report_Collector_v1.1/
+bash /root/ntrtrung/Report_Collector_v1.1/build 

@@ -1,0 +1,8 @@
+<PROGRAM_LIST>
+	<QOMET>
+		/root/qomet-1.5-beta/do_wireconf -q /root/qomet-1.5-beta/scenario_file.xml.out -i 0 -m 0.5 -b 10.8.0.255 -s /root/qomet-1.5-beta/setting_file
+      </QOMET>
+	<BROAD_ENVI>/root/ntrtrung/Broad_Envi_v0.27/broad_envi</BROAD_ENVI>
+	<DO_ACTION>/root/ntrtrung/Action_Executor_v0.7/do_action</DO_ACTION>
+	<OLSRD>/usr/local/sbin/olsrd</OLSRD>
+</PROGRAM_LIST>

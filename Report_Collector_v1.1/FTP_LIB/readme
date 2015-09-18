@@ -1,0 +1,33 @@
+======
+README
+======
+
+Project Admin: Omni
+Coder        : Omni
+E-Mail       : omnipresent@email.it
+
+==============
+TESTED SERVERS
+==============
+
+ [ SYS ] [    OS    ] [   FTP Deamon  ]
+- Win32  (Windows XP) -> PEAFtpD
+- Win32  (Windows XP) -> FileZilla Server 0.9.20 (beta)
+- Win32  (Windows XP) -> FileZilla Server 0.9.25 (beta)
+- Unix   (FreeBSD)    -> Proftpd
+- Unix   (Linux)      -> Proftpd
+- Unix   (Linux)      -> Pure-FTPd
+
+=============
+Documentation
+=============
+
+You can find documentation in docs directory:
+
+- docs/man.pdf
+  > Here you will find functions manuals
+
+- docs/howto.txt
+  > Here you will find how to compile your projects & Tips
+
+

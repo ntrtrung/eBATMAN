@@ -1,0 +1,58 @@
+<qomet_scenario duration="180" step="0.5">
+        
+  <node name="node_0" type="regular" id="0" connection="ad_hoc"
+        adapter="orinoco" x="0" y="0" z="0" Pt="20" internal_delay="1"/>
+
+  <node name="node_1" type="regular" id="1" connection="ad_hoc" 
+        adapter="orinoco" x="17" y="0" z="0" Pt="20" internal_delay="1"/>
+
+  <node name="node_2" type="regular" id="2" connection="ad_hoc"
+        adapter="orinoco" x="34" y="0" z="0" Pt="20" internal_delay="1"/>
+  
+  <node name="node_3" type="regular" id="3" connection="ad_hoc"
+        adapter="orinoco" x="0" y="17" z="0" Pt="20" internal_delay="1"/>
+
+  <node name="node_4" type="regular" id="4" connection="ad_hoc" 
+        adapter="orinoco" x="0" y="34" z="0" Pt="20" internal_delay="1"/>
+
+  <node name="node_5" type="regular" id="5" connection="ad_hoc"
+        adapter="orinoco" x="17" y="17" z="0" Pt="20" internal_delay="1"/>		
+		
+<node name="node_6" type="regular" id="6" connection="ad_hoc"
+        adapter="orinoco" x="34" y="17" z="20" Pt="20" internal_delay="1"/>
+
+  <node name="node_7" type="regular" id="7" connection="ad_hoc" 
+        adapter="orinoco" x="17" y="34" z="0" Pt="20" internal_delay="1"/>
+
+  <node name="node_8" type="regular" id="8" connection="ad_hoc"
+        adapter="orinoco" x="34" y="34" z="0" Pt="20" internal_delay="1"/>
+  
+  <node name="node_9" type="regular" id="9" connection="ad_hoc"
+        adapter="orinoco" x="40" y="17" z="0" Pt="20" internal_delay="1"/>
+
+
+ 
+  <environment name="env" alpha="5.6" sigma="0" W="0" noise_power="-100"/>
+  
+  <connection from_node="node_0" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_1" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_2" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_3" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/> 		
+  <connection from_node="node_4" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>	
+  <connection from_node="node_5" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_6" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_7" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>
+  <connection from_node="node_8" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/> 		
+  <connection from_node="node_9" to_node="auto_connect" through_environment="env"
+        standard="802.11b" packet_size="1024" consider_interference="false"/>			
+
+</qomet_scenario>

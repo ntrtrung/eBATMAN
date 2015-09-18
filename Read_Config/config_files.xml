@@ -1,0 +1,11 @@
+<CONFIG_FILES>
+	<SETTING_FILE>/root/Read_Config/setting_file</SETTING_FILE>
+	<NEIGHBOR_TABLE_BIN>/root/Read_Config/bin_neighbor_table.bin</NEIGHBOR_TABLE_BIN>
+	<BE_CONFIG>/root/Read_Config/be_config.xml</BE_CONFIG>
+	<IP_TO_IP>/root/Read_Config/ip_to_ip.txt</IP_TO_IP>
+	<ACTION_RECORD>/root/Read_Config/action_record.bin</ACTION_RECORD>
+	<ACTION_MAPPING>/root/Read_Config/action_mapping.xml</ACTION_MAPPING>
+	<ACTION>/root/Read_Config/action.xml</ACTION>
+	<QOMET_BIN>/root/Read_Config/scenario_file.xml.bin</QOMET_BIN>
+</CONFIG_FILES>
+

@@ -1,0 +1,50 @@
+#
+# Copyright (c) 2007 NAKATA, Junya (jnakata@nict.go.jp)
+# All rights reserved.
+#
+# $Id: Makefile,v 1.4 2007/11/26 08:55:54 jnakata Exp $
+#
+
+.SUFFIXES:	.c .o .So .so
+.c.o:
+	$(CC) $(CFLAGS) -fno-common -c -o $@ $<
+.o.So:
+	$(CC) -shared -o $@ $< $(LDFLAGS) $(LDLIBS)
+.So.so:
+	mv $< $@.1; ln -fs $@.1 $@
+
+CFLAGS	=	-Wall -I../include -Ijle/include -DDEBUG -DINFO -DNODELAY
+LDFLAGS	=	-L../lib -L.
+LDLIBS	=	-lruneservice -lrunelist -lore -lruneconnect -pthread
+
+TARGETS	=	libore.a libruneconnect.a coordinator.so enddevice.so chanel.o io_chanel.o libtimer.a chanel_space.so
+
+all:	$(TARGETS)
+
+libore.a:
+	cd jle;	make all
+
+libruneconnect.a:
+	cd jle;	make all
+
+coordinator.so:		coordinator.c
+
+enddevice.so:		enddevice.c
+
+chanel_space.so:  chanel.h global.h message.h chanel_space.c chanel.o
+	$(CC) -shared -o chanel_space.so io_chanel.o chanel.o \
+	$(LDFLAGS) $(LDLIBS) -L. -ltimer -lm
+
+chanel.o:         chanel.c chanel.h global.h message.h
+	$(CC) ${CFLAGS} -c chanel.c
+
+libtimer.a:       timer.h timer.c timer.o global.h
+	$(AR) rc libtimer.a timer.o && ranlib libtimer.a
+
+io_chanel.o:         io_chanel.c io_chanel.h global.h message.h
+	$(CC) ${CFLAGS} -c io_chanel.c
+
+clean:
+	cd jle;	make clean
+	rm -f $(TARGETS) *.o *.so*
+

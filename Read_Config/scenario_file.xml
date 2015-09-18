@@ -1,0 +1,228 @@
+<qomet_scenario duration="180" step="0.5">
+
+  <node name="GW" type="regular" id="0" connection="ad_hoc" 
+        adapter="dei80211mr" x="500.00" y="500.00" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN1" type="regular" id="1" connection="ad_hoc" 
+        adapter="dei80211mr" x="481.44" y="563.89" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN2" type="regular" id="2" connection="ad_hoc" 
+        adapter="dei80211mr" x="533.55" y="572.95" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN3" type="regular" id="3" connection="ad_hoc" 
+        adapter="dei80211mr" x="567.24" y="581.86" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN4" type="regular" id="4" connection="ad_hoc" 
+        adapter="dei80211mr" x="548.98" y="532.02" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN5" type="regular" id="5" connection="ad_hoc" 
+        adapter="dei80211mr" x="547.65" y="489.00" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN6" type="regular" id="6" connection="ad_hoc" 
+        adapter="dei80211mr" x="543.81" y="464.95" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN7" type="regular" id="7" connection="ad_hoc" 
+        adapter="dei80211mr" x="472.20" y="466.12" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN8" type="regular" id="8" connection="ad_hoc" 
+        adapter="dei80211mr" x="467.43" y="523.36" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN9" type="regular" id="9" connection="ad_hoc" 
+        adapter="dei80211mr" x="435.13" y="596.52" z="0" Pt="-20" internal_delay="0"/>
+
+  <node name="MN10" type="regular" id="10" connection="ad_hoc" 
+        adapter="dei80211mr" x="495.87" y="631.40" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN11" type="regular" id="11" connection="ad_hoc" 
+        adapter="dei80211mr" x="543.07" y="616.32" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN12" type="regular" id="12" connection="ad_hoc"
+        adapter="dei80211mr" x="571.60" y="610.71" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN13" type="regular" id="13" connection="ad_hoc" 
+        adapter="dei80211mr" x="594.00" y="630.26" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN14" type="regular" id="14" connection="ad_hoc" 
+        adapter="dei80211mr" x="629.90" y="574.26" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN15" type="regular" id="15" connection="ad_hoc" 
+        adapter="dei80211mr" x="603.82" y="519.14" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN16" type="regular" id="16" connection="ad_hoc" 
+        adapter="dei80211mr" x="622.24" y="488.53" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN17" type="regular" id="17" connection="ad_hoc" 
+        adapter="dei80211mr" x="621.77" y="444.76" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN18" type="regular" id="18" connection="ad_hoc" 
+        adapter="dei80211mr" x="588.63" y="418.52" z="0" Pt="-20" internal_delay="0"/>	
+  <node name="MN19" type="regular" id="19" connection="ad_hoc" 
+        adapter="dei80211mr" x="506.06" y="428.65" z="0" Pt="-20" internal_delay="0"/>
+
+  <node name="MN20" type="regular" id="20" connection="ad_hoc" 
+        adapter="dei80211mr" x="463.79" y="433.93" z="0" Pt="-20" internal_delay="0"/> 
+  <node name="MN21" type="regular" id="21" connection="ad_hoc" 
+        adapter="dei80211mr" x="427.58" y="439.79" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN22" type="regular" id="22" connection="ad_hoc" 
+        adapter="dei80211mr" x="413.83" y="492.84" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN23" type="regular" id="23" connection="ad_hoc" 
+        adapter="dei80211mr" x="417.04" y="541.43" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN24" type="regular" id="24" connection="ad_hoc" 
+        adapter="dei80211mr" x="418.17" y="574.38" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN25" type="regular" id="25" connection="ad_hoc"
+        adapter="dei80211mr" x="397.54" y="647.99" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN26" type="regular" id="26" connection="ad_hoc" 
+        adapter="dei80211mr" x="445.49" y="648.03" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN27" type="regular" id="27" connection="ad_hoc" 
+        adapter="dei80211mr" x="478.58" y="652.08" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN28" type="regular" id="28" connection="ad_hoc" 
+        adapter="dei80211mr" x="542.59" y="639.48" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN29" type="regular" id="29" connection="ad_hoc" 
+        adapter="dei80211mr" x="546.33" y="682.97" z="0" Pt="-20" internal_delay="0"/>
+
+  <node name="MN30" type="regular" id="30" connection="ad_hoc" 
+        adapter="dei80211mr" x="628.61" y="668.82" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN31" type="regular" id="31" connection="ad_hoc" 
+        adapter="dei80211mr" x="662.51" y="663.74" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN32" type="regular" id="32" connection="ad_hoc" 
+        adapter="dei80211mr" x="654.36" y="602.86" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN33" type="regular" id="33" connection="ad_hoc" 
+        adapter="dei80211mr" x="677.58" y="573.46" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN34" type="regular" id="34" connection="ad_hoc" 
+        adapter="dei80211mr" x="654.77" y="540.31" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN35" type="regular" id="35" connection="ad_hoc" 
+        adapter="dei80211mr" x="655.18" y="480.10" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN36" type="regular" id="36" connection="ad_hoc" 
+        adapter="dei80211mr" x="639.62" y="450.11" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN37" type="regular" id="37" connection="ad_hoc" 
+        adapter="dei80211mr" x="656.72" y="391.47" z="0" Pt="-20" internal_delay="0"/>
+  <node name="MN38" type="regular" id="38" connection="ad_hoc" 
+        adapter="dei80211mr" x="591.28" y="374.71" z="0" Pt="-20" internal_delay="0"/>	
+  <node name="MN39" type="regular" id="39" connection="ad_hoc" 
+        adapter="dei80211mr" x="566.90" y="402.49" z="0" Pt="-20" internal_delay="0"/>
+
+  	
+  <motion node_name="MN10" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN1" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN12" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN23" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN30" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN34" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN20" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN35" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  <motion node_name="MN6" type="random_walk" min_speed="0.5" max_speed="1.0" walk_time="10.0" start_time="5.000" stop_time="150.000"/>	
+  
+  <object name="building" environment="env_building" 
+        x1="0" y1="0" x2="300" y2="300"/>
+
+  <environment name="env_building" is_dynamic="false"
+        alpha="2" sigma="0" W="0" noise_power="-100"/>
+
+  <connection from_node="GW" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+
+  <connection from_node="MN1" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN2" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN3" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN4" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN5" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN6" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN7" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN8" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN9" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN10" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN11" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN12" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+
+  <connection from_node="MN13" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN14" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN15" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN16" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN17" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN18" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN19" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+	
+  <connection from_node="MN20" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN21" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN22" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN23" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN24" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN25" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN26" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN27" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN28" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN29" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+	
+  <connection from_node="MN30" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN31" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN32" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN33" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN34" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN35" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN36" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN37" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN38" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+  <connection from_node="MN39" to_node="auto_connect" 
+        through_environment="env_building" consider_interference="false"
+        standard="802.11b" packet_size="1052"/>
+</qomet_scenario>

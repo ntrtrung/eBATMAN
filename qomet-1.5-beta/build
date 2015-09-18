@@ -1,0 +1,3 @@
+gmake clean
+gmake 
+cp /root/qomet-1.5-beta/wireconf/do_wireconf /root/qomet-1.5-beta/

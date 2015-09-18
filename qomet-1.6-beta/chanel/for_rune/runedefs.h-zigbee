@@ -1,0 +1,16 @@
+#include "runebase.h"
+
+BGNSPACELIST
+     SPACE(coordinator,	        127.0.0.1,	coordinator.so)
+     SPACE(enddevice,	        127.0.0.1,	enddevice.so)
+     SPACE(chanel_space0,	127.0.0.1,	chanel_space.so)
+     SPACE(chanel_space1,	127.0.0.1,	chanel_space.so)
+ENDSPACELIST
+
+BGNCONDUITLIST
+	CONDUIT(coordinator,	chanel_space0)
+	CONDUIT(chanel_space0,	enddevice)
+	CONDUIT(enddevice,	chanel_space1)
+	CONDUIT(chanel_space1,	coordinator)
+ENDCONDUITLIST
+

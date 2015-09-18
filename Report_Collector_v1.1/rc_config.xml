@@ -1,0 +1,6 @@
+<Report_Collector>
+	<Report_Interface>fxp0</Report_Interface>
+	<QOMET_setting_file>setting_file</QOMET_setting_file>
+	<Data_Server_List>data_server_list.txt</Data_Server_List>
+	<Log_File_Path>/root/logfile/</Log_File_Path>
+</Report_Collector>

@@ -1,0 +1,1 @@
+gcc -Wall -o NewDawn4 NewDawn4.c `netwib-config -lc` -lpthread

@@ -1,0 +1,9 @@
+gcc -c action_record.c
+gcc -c processes.c
+gcc -c action_mapping.c
+gcc -c id_ip.c
+gcc -c -g do_actioon.c
+gcc -c config_files.c
+gcc -c network.c
+gcc -o do_action `xml2-config --cflags` `xml2-config --libs` action_record.o processes.o action_mapping.o id_ip.o do_actioon.o config_files.o network.o
+rm *.o

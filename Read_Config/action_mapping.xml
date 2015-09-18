@@ -1,0 +1,24 @@
+<action_mapping>
+	<action>
+		<id>0</id>
+		<name>apache.sh</name>
+		<file_path>/root/ntrtrung/Action_Scripts/apache.sh</file_path>
+	</action>
+	<action>
+		<id>1</id>
+		<name>tcp-syn.sh</name>
+		<file_path>/root/ntrtrung/Action_Scripts/tcp-syn.sh</file_path>
+	</action>
+	<action>
+		<id>2</id>
+		<name>ping.sh</name>
+		<file_path>/root/ntrtrung/Action_Scripts/ping.sh</file_path>
+	</action>
+		<action>
+		<id>3</id>
+		<name>slowlris.sh</name>
+		<file_path>/root/ntrtrung/Action_Scripts/slowlris.sh</file_path>
+	</action>
+</action_mapping>
+	
+	

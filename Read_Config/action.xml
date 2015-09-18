@@ -1,0 +1,286 @@
+<!-- Example action file for ...-->
+<!-- des_node = -1 means node will attack all node in its range-->
+<action_scenario>
+     <point time="1.5">
+            <node id="0" >
+                  <action>
+					<action_id>2</action_id>
+					<duration>10</duration> 
+					<des_node>2</des_node>  
+				</action>
+            </node>
+	     <node id="1" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="2" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="3" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>2</des_node>  
+		  </action>
+         </node>
+		   <node id="4" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="5" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="6" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="7" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		   <node id="8" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		  <node id="9" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="10" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="11" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="12" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="13" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="14" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="15" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="16" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="17" >
+           <action>
+		      <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="18" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="19" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="20" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		  <node id="21" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="22" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="23" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="24" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="25" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="26" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="27" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="28" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="29" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="30" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="31" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="32" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		  <node id="33" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="34" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="35" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="36" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="37" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="38" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+		 <node id="39" >
+           <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+         </node>
+    </point>
+</action_scenario>

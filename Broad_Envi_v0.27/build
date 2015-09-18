@@ -1,0 +1,12 @@
+gcc -c packet_queue.c
+gcc -c read_config.c
+gcc -c routing.c
+gcc -c network.c
+gcc -c main_broad_envi.c
+gcc -c read_ip_to_ip.c
+gcc -c id_ip.c
+gcc -c neighbor_table.c
+gcc -c config_files.c
+gcc -c ipfw_control.c
+gcc -o broad_envi config_files.o packet_queue.o ipfw_control.o read_config.o routing.o id_ip.o neighbor_table.o main_broad_envi.o network.o read_ip_to_ip.o `xml2-config --cflags` `xml2-config --libs` -lpthread
+rm *.o

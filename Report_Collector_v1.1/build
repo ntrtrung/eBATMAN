@@ -1,0 +1,11 @@
+gcc -c ticket.c
+gcc -c id_ip.c
+gcc -c network.c
+gcc -c direct_ma.c
+gcc -c upload_data.c
+gcc -c main_RC.c
+gcc -c read_config.c
+gcc -o report_collector ticket.o id_ip.o network.o direct_ma.o upload_data.o main_RC.o libOftp.a read_config.o `xml2-config --cflags` `xml2-config --libs` -lpthread
+gcc -c client_master.c
+gcc -o client_master ticket.o id_ip.o network.o client_master.o
+rm *.o

@@ -1,0 +1,44 @@
+<!-- Example action file for ...-->
+<!-- des_node = -1 means node will attack all node in its range-->
+<action_scenario>
+     <point time="1.5">
+            <node id="0" >
+                  <action>
+			 <action_id>0</action_id>
+			 <duration>10</duration> 
+			 <des_node>0</des_node>  
+		    </action>
+            </node>
+	     <node id="1" >
+                  <action>
+		        <action_id>2</action_id>
+			<duration>11</duration> 
+			<des_node>3</des_node>  
+		  </action>
+		  <action>
+		  	<action_id>4</action_id>
+		  	<duration>12</duration> 
+			<des_node>3</des_node>  
+  		  </action>
+            </node>
+    </point>
+	<point time="2">
+            <node id="1" >
+                  <action>
+			<action_id>0</action_id>
+			<duration>15</duration> 
+			<des_node>0</des_node>  
+		  </action>
+            </node>
+    </point>
+     <point time="20">
+            <node id="2" >
+                  <action>
+			<action_id>0</action_id>
+			<duration>30</duration> 
+			<des_node>0</des_node>  
+		  </action>
+            </node>
+    </point>
+
+</action_scenario>

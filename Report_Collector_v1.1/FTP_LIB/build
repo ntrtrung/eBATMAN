@@ -1,0 +1,5 @@
+rm *.a
+make 
+make install
+rm *.o
+gcc -o test example1.c libOftp.a

@@ -1,0 +1,5 @@
+gcc -c processes.c
+gcc -c xml_parser.c
+gcc -c control_program.c
+gcc -c ipfw_control.c
+gcc -o control_program *.o -lpthread `xml2-config --cflags` `xml2-config --libs`

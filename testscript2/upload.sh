@@ -1,0 +1,1 @@
+scp -r /home/ftp/ guest@172.16.32.243:/export/guest/qomet-10/ntrtrung/

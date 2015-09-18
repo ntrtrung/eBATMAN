@@ -1,0 +1,4 @@
+gcc -c *.c
+gcc -o neighbor_table main.o config_files.o read_config.o io.o id_ip.o network.o read_ip_to_ip.o neighbor_table.o `xml2-config --cflags` `xml2-config --libs` -lpthread
+gcc -o show_bin show_bin.o neighbor_table.o
+rm *.o

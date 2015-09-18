@@ -1,0 +1,1 @@
+/root/ntrtrung/Control_Program/control_program &

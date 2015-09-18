@@ -1,0 +1,1 @@
+/root/ntrtrung/Report_Collector_v1.1/report_collector &
